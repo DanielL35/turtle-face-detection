@@ -11,17 +11,18 @@ The challenge does not allow commercial tools. Therefore, the first step of crea
 ## 1. Creating a training data set with roboflow
 The images are annotated and augmented using roboflow. 145 are used for training.
 This is done manually and looks like this:
+
 ![train set](https://user-images.githubusercontent.com/66785534/215327641-94e3d5c9-401b-4213-8643-c69a3f0ab7fa.png)
 
 
 ## 2. Training a YOLOv5 segmentation model
-100 epochs took about an hour in google colab.
+After downloading some pre-trained weights the model is trained for 100 epochs which should take about an hour in google colab.
 
 ## 3. Predict the polygons and save text files
-The prediction of the images was done in a few minutes in google colab. For each image a text file with the polygon coordinates is saved.
+The prediction of all images was is performed and a text file with the polygon coordinates is saved for each image.
 
-<img src="https://user-images.githubusercontent.com/66785534/215327669-9774cd95-a5aa-4430-a994-c2e08758e809.jpeg" alt="drawing" width="300"/>
-<img src="https://user-images.githubusercontent.com/66785534/215327663-e858bfcf-3c82-4e16-855a-7eff0fe47aa5.jpeg" alt="drawing" width="300"/>
+<img src="https://user-images.githubusercontent.com/66785534/215327669-9774cd95-a5aa-4430-a994-c2e08758e809.jpeg" alt="drawing" width="400"/>
+<img src="https://user-images.githubusercontent.com/66785534/215327663-e858bfcf-3c82-4e16-855a-7eff0fe47aa5.jpeg" alt="drawing" width="400"/>
 
 
 
