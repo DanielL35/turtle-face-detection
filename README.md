@@ -8,16 +8,23 @@ This is the first step for developing a tool to identify individuals based on th
 
 The challenge does not allow commercial tools. Therefore, the first step of creating of the dataset with roboflow still needs to be replaced with an open-source solution.
 
-# 1. Creating a training data set with roboflow
+## 1. Creating a training data set with roboflow
 The images are annotated and augmented using roboflow. 145 are used for training.
+This is done manually and looks like this:
+![train set](https://user-images.githubusercontent.com/66785534/215327641-94e3d5c9-401b-4213-8643-c69a3f0ab7fa.png)
 
-# 2. Training a YOLOv5 segmentation model
+
+## 2. Training a YOLOv5 segmentation model
 100 epochs took about an hour in google colab.
 
-# 3. Predict the polygons and save text files
+## 3. Predict the polygons and save text files
 The prediction of the images was done in a few minutes in google colab. For each image a text file with the polygon coordinates is saved.
+![prediction example 1](https://user-images.githubusercontent.com/66785534/215327659-bcf88865-d21d-4935-bef9-2052e2dd30d6.png)
+![prediction example 2](https://user-images.githubusercontent.com/66785534/215327663-e858bfcf-3c82-4e16-855a-7eff0fe47aa5.jpeg)
 
-# 4. Transform the text files to the required format.
-Eventually the data is saved as a csv file.
+
+## 4. Transform the text files to the required format.
+Eventually the data is saved as a csv file. The actual polygons are not needed and transformed into bounding boxes.
+![bounding boxes](https://user-images.githubusercontent.com/66785534/215327669-9774cd95-a5aa-4430-a994-c2e08758e809.jpeg)
 
 More detailled descriptions are available in the notebook.
