@@ -19,12 +19,14 @@ This is done manually and looks like this:
 
 ## 3. Predict the polygons and save text files
 The prediction of the images was done in a few minutes in google colab. For each image a text file with the polygon coordinates is saved.
-![prediction example 1](https://user-images.githubusercontent.com/66785534/215327659-bcf88865-d21d-4935-bef9-2052e2dd30d6.png)
+
+![prediction example 1](https://user-images.githubusercontent.com/66785534/215327669-9774cd95-a5aa-4430-a994-c2e08758e809.jpeg)
 ![prediction example 2](https://user-images.githubusercontent.com/66785534/215327663-e858bfcf-3c82-4e16-855a-7eff0fe47aa5.jpeg)
 
 
 ## 4. Transform the text files to the required format.
 Eventually the data is saved as a csv file. The actual polygons are not needed and transformed into bounding boxes.
-![bounding boxes](https://user-images.githubusercontent.com/66785534/215327669-9774cd95-a5aa-4430-a994-c2e08758e809.jpeg)
+
+![bounding boxes](https://user-images.githubusercontent.com/66785534/215327659-bcf88865-d21d-4935-bef9-2052e2dd30d6.png)
 
 More detailled descriptions are available in the notebook.
