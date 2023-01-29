@@ -21,6 +21,7 @@ This is done manually and looks like this:
 The prediction of the images was done in a few minutes in google colab. For each image a text file with the polygon coordinates is saved.
 
 ![prediction example 1](https://user-images.githubusercontent.com/66785534/215327669-9774cd95-a5aa-4430-a994-c2e08758e809.jpeg)
+<img src="https://user-images.githubusercontent.com/66785534/215327669-9774cd95-a5aa-4430-a994-c2e08758e809.jpeg" alt="drawing" width="200"/>
 ![prediction example 2](https://user-images.githubusercontent.com/66785534/215327663-e858bfcf-3c82-4e16-855a-7eff0fe47aa5.jpeg)
 
 
